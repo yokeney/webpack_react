@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
 
+// import './css/index.less'
+import './css/test.scss'
+import './css/index.css'
+import './css/style.css'
+
 class App extends Component {
     render() {
         return (
-          111
+          <div className="container"><p className="qq">asdsad</p></div>
         )
     }
 };
